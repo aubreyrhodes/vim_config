@@ -1,7 +1,7 @@
 if has("gui_running")
   if has("gui_macvim")
     " OS X only font
-    set guifont=Monaco:h10
+    set guifont=Monaco:h13
 
     " Rebind Cmd+T to Command T
     macmenu &File.New\ Tab key=<nop>
