@@ -11,7 +11,7 @@ Move your existing vim setup out of the way:
 
 Clone the repo, add link to .vimrc, & setup vundle:
 
-    $ git clone git://github.com/skalnik/vim_config.git ~/.vim
+    $ git clone git://github.com/aubreyrhodes/vim_config.git ~/.vim
     $ ln -s ~/.vim/vimrc ~/.vimrc
     $ cd ~/.vim && git submodule update --init
     $ mvim -u vundle.vim +BundleInstall +q +q
